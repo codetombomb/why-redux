@@ -1,0 +1,24 @@
+.nav {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.nav li {
+    margin: 0 5% 0 5%;
+    padding: 0px;
+    height: 40%;
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
