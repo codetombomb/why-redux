@@ -1,5 +1,5 @@
 import './Nav.css'
-function Nav() {
+function Nav({students}) {
   return (
     <div className='nav'>
         <ul>
@@ -7,7 +7,7 @@ function Nav() {
                 <p>Home</p>
             </li>
             <li>
-                <p>Students (3)</p>
+                <p>Students ({students.length})</p>
             </li>
             <li>
                 <p>New Student</p>
